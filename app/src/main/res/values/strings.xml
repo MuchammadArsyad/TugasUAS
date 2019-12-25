@@ -25,4 +25,16 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="Senin">Nin</string>
+    <string name="senin_12_desember_2019">Senin, 12 Desember 2019</string>
+    <string name="timnas_u23">Timnas U23</string>
+    <string name="selasa_25_januari_2019">Selasa, 25 Januari 2019</string>
+    <string name="selasa_25_februari_2019">Selasa, 25 Februari 2019</string>
+    <string name="_17_00_wib_live_rcti">17.00 WIB | Live RCTI</string>
+    <string name="_19_00_wit_live_sctv">19.00 WIT | Live SCTV</string>
+    <string name="_20_00_wita_live_tvri">20.00 WITA | Live TVRI</string>
+    <string name="timnas_u19">Timnas U19</string>
+    <string name="timnas_u16">Timnas U16</string>
+    <string name="logo">TODO</string>
+    <string name="logo2">TODO</string>
+    <string name="logo3">TODO</string>
 </resources>
