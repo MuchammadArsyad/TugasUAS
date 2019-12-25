@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/timetable" />
+    <item android:id="@+id/action_pemain"
+        android:title="Pemain"
+        android:icon="@drawable/player" />
+    <item android:id="@+id/action_stadion"
+        android:title="Stadion"
+        android:icon="@drawable/imagestadium" />
+</menu>

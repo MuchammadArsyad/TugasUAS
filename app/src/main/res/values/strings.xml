@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Android UTS</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">LETS GO</string>
+
+    <string name="slide_1_title">Jadwal Timnas!</string>
+    <string name="slide_1_desc">Informasi Mengenai Jadwal Pertandingan Timnas Indonesia!</string>
+
+    <string name="slide_2_title">Stadion</string>
+    <string name="slide_2_desc">Mengulas Tentang Stadion Yang Menjadi Tempat Berlaganya Timnas Indonesia</string>
+
+    <string name="slide_3_title">Nama Pemain!</string>
+    <string name="slide_3_desc">Nama Pemain Yang Menjadi Timnas</string>
+
+    <string name="slide_4_title">Forza Indonesia</string>
+    <string name="slide_4_desc">Dukung Timnas Mu Di Ajang Internasional</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="polinema_mobile">Android UTS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="Senin">Nin</string>
+</resources>
