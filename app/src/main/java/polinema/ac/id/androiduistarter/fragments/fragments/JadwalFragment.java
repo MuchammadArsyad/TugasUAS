@@ -37,19 +37,19 @@ public class JadwalFragment extends Fragment {
         rabu = view.findViewById(R.id.button2);
 //        imageButton = view.findViewById(R.id.imageButton1);
         // Inflate the layout for this fragment
-        senin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                 jadwal.setText("Indonesia vs Malaysia");
-            }
-
-        });
-        rabu.setOnClickListener(new View.OnClickListener() {
-                                      @Override
-                                      public void onClick(View view) {
-                  jadwal.setText("Thailand vs indonesia");
-                                      }
-        });
+                                    //        senin.setOnClickListener(new View.OnClickListener() {
+                                    //            @Override
+                                    //            public void onClick(View view) {
+                                    //                 jadwal.setText("Indonesia vs Malaysia");
+                                    //            }
+                                    //
+                                    //        });
+                                    //        rabu.setOnClickListener(new View.OnClickListener() {
+                                    //                                      @Override
+                                    //                                      public void onClick(View view) {
+                                    //                  jadwal.setText("Thailand vs indonesia");
+                                    //                                      }
+                                    //        });
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
