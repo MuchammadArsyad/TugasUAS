@@ -19,7 +19,7 @@
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
-    <string name="polinema_mobile">Android UTS</string>
+    <string name="polinema_mobile">Polinema UAS</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -34,7 +34,7 @@
     <string name="_20_00_wita_live_tvri">20.00 WITA | Live TVRI</string>
     <string name="timnas_u19">Timnas U19</string>
     <string name="timnas_u16">Timnas U16</string>
-    <string name="logo">TODO</string>
-    <string name="logo2">TODO</string>
-    <string name="logo3">TODO</string>
+    <string name="logo">TODO1</string>
+    <string name="logo2">TODO2</string>
+    <string name="logo3">TODO3</string>
 </resources>

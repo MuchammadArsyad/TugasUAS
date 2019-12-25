@@ -16,8 +16,8 @@
 
     <ImageView
         android:id="@+id/logo3"
-        android:layout_width="120dp"
-        android:layout_height="133dp"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="231dp"
@@ -27,12 +27,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo16" />
 
     <ImageView
         android:id="@+id/logo2"
-        android:layout_width="120dp"
-        android:layout_height="133dp"
+        android:layout_width="131dp"
+        android:layout_height="146dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="234dp"
@@ -42,23 +42,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo19" />
+
+    <!--        android:contentDescription="TODO" />-->
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="120dp"
-        android:layout_height="133dp"
+        android:layout_width="131dp"
+        android:layout_height="134dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="235dp"
-        android:layout_marginBottom="465dp"
+        android:layout_marginBottom="467dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        android:contentDescription="@string/logo" />
-<!--        android:contentDescription="TODO" />-->
+        app:srcCompat="@drawable/logo23" />
 
     <TextView
         android:id="@+id/U23"
@@ -86,9 +87,29 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="342dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="328dp"
         android:text="@string/selasa_25_januari_2019" />
+
+    <TextView
+        android:id="@+id/WIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="287dp"
+        android:text="@string/_19_00_wit_live_sctv" />
+
+    <TextView
+        android:id="@+id/U19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="368dp"
+        android:text="@string/timnas_u19" />
 
     <TextView
         android:id="@+id/Februari"
@@ -111,16 +132,6 @@
         android:text="@string/_17_00_wib_live_rcti" />
 
     <TextView
-        android:id="@+id/WIT"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="79dp"
-        android:layout_marginBottom="299dp"
-        android:text="@string/_19_00_wit_live_sctv" />
-
-    <TextView
         android:id="@+id/WITA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -129,16 +140,6 @@
         android:layout_marginEnd="78dp"
         android:layout_marginBottom="99dp"
         android:text="@string/_20_00_wita_live_tvri" />
-
-    <TextView
-        android:id="@+id/U19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="379dp"
-        android:text="@string/timnas_u19" />
 
     <TextView
         android:id="@+id/U16"

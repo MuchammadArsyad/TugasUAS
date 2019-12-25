@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import polinema.ac.id.androiduistarter.R;
@@ -18,9 +19,9 @@ import polinema.ac.id.androiduistarter.R;
  * A simple {@link Fragment} subclass.
  */
 public class JadwalFragment extends Fragment {
-    TextView jadwal;
-    Button senin, rabu;
-    ImageButton imageButton;
+    TextView Jadwal;
+    //    Button senin, rabu;
+    ImageView logo3, logo2, logo;
 
     public JadwalFragment() {
         // Required empty public constructor
@@ -32,39 +33,40 @@ public class JadwalFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_jadwal, container, false);
 
-        jadwal= view.findViewById(R.id.textView);
-        senin = view.findViewById(R.id.button);
-        rabu = view.findViewById(R.id.button2);
+        Jadwal = view.findViewById(R.id.textView);
+//        senin = view.findViewById(R.id.button);
+//        rabu = view.findViewById(R.id.button2);
 //        imageButton = view.findViewById(R.id.imageButton1);
         // Inflate the layout for this fragment
-                                    //        senin.setOnClickListener(new View.OnClickListener() {
-                                    //            @Override
-                                    //            public void onClick(View view) {
-                                    //                 jadwal.setText("Indonesia vs Malaysia");
-                                    //            }
-                                    //
-                                    //        });
-                                    //        rabu.setOnClickListener(new View.OnClickListener() {
-                                    //                                      @Override
-                                    //                                      public void onClick(View view) {
-                                    //                  jadwal.setText("Thailand vs indonesia");
-                                    //                                      }
-                                    //        });
-        imageButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                jadwal.setText("Thailand vs Zambia");
-            }
-        });
-        return view;
+        //        senin.setOnClickListener(new View.OnClickListener() {
+        //            @Override
+        //            public void onClick(View view) {
+        //                 jadwal.setText("Indonesia vs Malaysia");
+        //            }
+        //
+        //        });
+        //        rabu.setOnClickListener(new View.OnClickListener() {
+        //                                      @Override
+        //                                      public void onClick(View view) {
+        //                  jadwal.setText("Thailand vs indonesia");
+        //                                      }
+        //        });
+        //        imageButton.setOnClickListener(new View.OnClickListener() {
+        //            @Override
+        //            public void onClick(View view) {
+        //                jadwal.setText("Thailand vs Zambia");
+        //            }
+        //        });
+        //        return view;
+        //
+        //    }
 
+    public void buttonOnClick(View view) {
+            Jadwal.setText("Indonesia vs Malaysia");
+        }
+
+        public void test(View view) {
+            Jadwal.setText("Indonesia vs Malaysia");
+        }
     }
-
-//    public void buttonOnClick(View view) {
-//       jadwal.setText("Indonesia vs Malaysia");
-//    }
-//
-//    public void test(View view) {
-//        jadwal.setText("Indonesia vs Malaysia");
-//    }
 }
