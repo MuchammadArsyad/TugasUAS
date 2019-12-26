@@ -19,7 +19,7 @@ import polinema.ac.id.androiduistarter.R;
  * A simple {@link Fragment} subclass.
  */
 public class JadwalFragment extends Fragment {
-    TextView Jadwal;
+         TextView Jadwal;
     //    Button senin, rabu;
     ImageView logo3, logo2, logo;
 
@@ -31,9 +31,9 @@ public class JadwalFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_jadwal, container, false);
+        View view = inflater.inflate(R.layout.fragment_jadwal, container, false;
 
-        Jadwal = view.findViewById(R.id.textView);
+//        Jadwal = view.findViewById(R.id.textView);
 //        senin = view.findViewById(R.id.button);
 //        rabu = view.findViewById(R.id.button2);
 //        imageButton = view.findViewById(R.id.imageButton1);
@@ -61,12 +61,12 @@ public class JadwalFragment extends Fragment {
         //
         //    }
 
-    public void buttonOnClick(View view) {
-            Jadwal.setText("Indonesia vs Malaysia");
-        }
-
-        public void test(View view) {
-            Jadwal.setText("Indonesia vs Malaysia");
-        }
-    }
+//           public void buttonOnClick(View view) {
+//            Jadwal.setText("Indonesia vs Malaysia");
+//        }
+//
+//        public void test(View view) {
+//            Jadwal.setText("Indonesia vs Malaysia");
+//        }
+//    }
 }
