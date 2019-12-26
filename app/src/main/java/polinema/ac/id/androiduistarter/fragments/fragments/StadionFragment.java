@@ -19,7 +19,7 @@ import polinema.ac.id.androiduistarter.R;
 public class StadionFragment extends Fragment {
     TextView stadion;
     Button senin, rabu;
-    
+
 
 
     public StadionFragment() {
